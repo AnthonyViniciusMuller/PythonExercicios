@@ -1,0 +1,5 @@
+n1 = float(input("Digite o cateto oposto: "))
+n2 = float(input("Digite o cateto adjacente: "))
+hip = (n1**2) + (n2**2)
+hip = hip**(1/2)
+print("A hipotenusa é {:.2f}".format(hip))
